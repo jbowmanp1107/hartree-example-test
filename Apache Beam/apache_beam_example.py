@@ -1,10 +1,10 @@
-import os
 import itertools
-import apache_beam as beam
-from apache_beam.dataframe.io import read_csv, to_csv
-from apache_beam.dataframe.convert import to_pcollection, to_dataframe
-from apache_beam import dataframe
+import os
 import typing
+import apache_beam as beam
+from apache_beam import dataframe
+from apache_beam.dataframe.convert import to_dataframe, to_pcollection
+from apache_beam.dataframe.io import read_csv, to_csv
 
 
 class OutputTypes(typing.NamedTuple):

@@ -1,7 +1,7 @@
-import os
 import itertools
-import pandas
+import os
 import numpy as np
+import pandas
 
 
 my_path = os.path.abspath(os.path.dirname(__file__))
