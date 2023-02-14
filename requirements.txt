@@ -1,0 +1,2 @@
+pandas==1.4.4
+apache-beam[dataframe]==2.44.0
